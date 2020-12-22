@@ -1,0 +1,124 @@
+  body {
+    margin: 0;
+    padding: 0;
+    background: rgb(165, 165, 165);
+    background-image: url('jeremy-perkins-uhjiu8FjnsQ-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    font-family: "Poppins", sans-serif;
+  }
+
+  h1 {
+    margin: 0;
+    font-weight: 400;
+  }
+  
+  h2 {
+    margin: 0;
+    font-weight: 400;
+    display: inline;
+  }
+  
+  .box {
+    background: rgb(231, 225, 225);
+    width: 50rem;
+    padding: 3rem;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+    border-style: inset;
+    border: 5px solid rgb(133, 133, 133);
+  }
+  
+  .header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  
+  .header-left {
+    display: grid;
+    justify-items: left;
+    align-items: left;
+    font-size: 2rem;
+    font-family: 'Squada One', cursive;
+  }
+  
+  .first-name {
+    font-weight: 400;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  .last-name {
+    font-weight: 400;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  
+  .header-right {
+    width: 100%;
+    display: grid;
+    justify-items: end;
+  }
+
+  .header-right a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    margin: 7px 0;
+  }  
+
+  .header-right p {
+    display: inline-block;
+    text-decoration: none;
+    margin: 7px 0;
+  } 
+
+  .space{
+    margin-bottom: 1.5rem;
+  } 
+
+  .icon{
+    color: rgb(190, 190, 190);
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
+ 
+  .grey{
+    background: rgb(133, 133, 133);
+    box-shadow: 5px 5px 20px rgba(31, 27, 27, 0.5);
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+  }
+
+  table{
+    border: 2px solid rgb(20, 20, 20);
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+    box-shadow: 0 0 8px rgba(8, 8, 8, 0.25) ;
+    margin: 1rem 0;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+  }
+
+  .highlight{
+    background-color: rgba(179, 170, 170, 0.562);
+  }
+
+  td, th{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 0.4rem;
+  }
+
+  hr{
+    height: 0.5px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+}
+
+  span:hover{
+  color: rgb(158, 158, 158);
+  transition: color 0.25s;
+}
